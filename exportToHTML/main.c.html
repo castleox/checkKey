@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>main.c</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bbb529;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+.s4 { color: #808080;}
+.s5 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.c</font>
+</center></td></tr></table>
+<pre><span class="s0">#include </span><span class="s2">&lt;stdio.h&gt;</span>
+<span class="s0">#include </span><span class="s2">&lt;windows.h&gt;</span>
+
+
+<span class="s3">void </span><span class="s1">checkKey()</span><span class="s3">;</span>
+
+<span class="s3">void </span><span class="s1">checkKey(){</span>
+    <span class="s4">// appArm--;</span>
+    <span class="s1">system(</span><span class="s2">&quot;CLS&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">system(</span><span class="s2">&quot;COLOR 16&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;AppArmor Security System (TM) V1.0.2 Davide Castelli 3 Sirio Informatica</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;=================================================================================</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot; | E' stato inserito un carattere non valido, il programma e'avvelenato         |</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot; | Sono rimasti soltanto %d tentativi                                           |</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s3">, </span><span class="s1">appArm)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot; | Esauriti i tentativi, il PC verra' disattivato come punizione                |</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot; | per aver inserito caratteri a caso senza seguire le indicazioni.             |</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">printf(</span><span class="s2">&quot;=================================================================================</span><span class="s3">\n</span><span class="s2">&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s3">while </span><span class="s1">(appArm&gt;</span><span class="s5">0</span><span class="s1">)</span>
+    <span class="s1">{</span>
+        <span class="s1">system(</span><span class="s2">&quot;PAUSE&quot;</span><span class="s1">)</span><span class="s3">;</span>
+        <span class="s1">system (</span><span class="s2">&quot;CLS&quot;</span><span class="s1">)</span><span class="s3">;</span>
+        <span class="s1">system(</span><span class="s2">&quot;COLOR 02&quot;</span><span class="s1">)</span><span class="s3">;</span>
+        <span class="s1">main()</span><span class="s3">;</span>
+    <span class="s1">}</span>
+    <span class="s1">{</span>
+        <span class="s1">system(</span><span class="s2">&quot;cls&quot;</span><span class="s1">)</span><span class="s3">;</span>
+        <span class="s1">printf(</span><span class="s2">&quot;Sei stanco, vai a dormire e copriti bene....&quot;</span><span class="s1">)</span><span class="s3">;</span>
+        <span class="s1">system(</span><span class="s2">&quot;shutdown -s -t 15&quot;</span><span class="s1">)</span><span class="s3">;</span>
+    <span class="s1">}</span>
+<span class="s1">}</span></pre>
+</body>
+</html>
